@@ -1,0 +1,142 @@
+* {
+    margin: 0pt;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(5, 5, 37);
+    color: aliceblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(22 18 54);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav ul li a:hover {
+    color: rgb(233, 248, 29);
+    font-size: 1.1rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px;
+}
+
+.left {
+    font-size: 1.7rem;
+    position: relative;
+    left: -10px;
+    bottom: 25px;
+}
+
+.logo {
+    position: relative;
+    width: 85px;
+    left: -105px;
+    top: 20px;
+    height: 55px;
+
+
+
+
+}
+
+
+.leftsection {
+    margin: 40px;
+    font-size: 3.0rem;
+
+
+}
+
+#element {
+    color: aqua;
+}
+
+.secendsection {
+
+
+    margin-left: 65px;
+
+
+}
+
+.secendsection h1 {
+    display: flex;
+    font-size: 1.9rem;
+}
+
+main hr {
+    border: 0px;
+    background-color: rgb(63, 63, 231);
+    height: 1.2px;
+    margin: 50px 84px;
+}
+
+.box {
+    background-color: aliceblue;
+    height: 2px;
+    width: 80vw;
+    margin: 56px 0;
+    display: flex;
+}
+
+.vertical {
+    background-color: aliceblue;
+    height: 50px;
+    width: 1.5px;
+    margin: 0px 150px;
+}
+
+.imagetop {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.verticaltext {
+    position: relative;
+    top: 19px;
+
+    width: 130px;
+    left: -35px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 26px;
+    left: -35px;
+    width: 110px;
+    font-size: 9px;
+}
+
+
+.name {
+    color: rgb(22, 229, 236);
+}
+
+.developer {
+    color: rgb(14, 216, 149);
+}
